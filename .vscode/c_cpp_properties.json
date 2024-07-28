@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dlee/ros2_ws/install/sar_msgs/include/**",
+        "/home/dlee/ros2_ws/install/crazyflie_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/dlee/ros2_ws/src/my_ignition_plugin/include/**",
+        "/home/dlee/ros2_ws/src/sar_simulation/sar_control/include/**",
+        "/home/dlee/ros2_ws/src/sar_simulation/sar_data_converter/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

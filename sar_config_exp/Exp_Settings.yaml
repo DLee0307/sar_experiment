@@ -1,0 +1,27 @@
+DATA_TYPE: "EXP"
+
+
+SAR_SETTINGS:
+  SAR_Type: "Impulse_Micro"
+  SAR_Config: "A30_L100"
+
+  # Policy_Type: "PARAM_OPTIM"
+  # Policy_Type: "DEEP_RL_SB3" 
+  Policy_Type: "DEEP_RL_ONBOARD" 
+  
+CAM_SETTINGS:
+  Cam_Config: "None"
+  Cam_Active: False
+
+
+PLANE_SETTINGS: # INITIAL PLANE POSE SETTINGS
+  Plane_Type: "Landing_Surface"
+  Plane_Config: "Checkerboard_L02"
+  Plane_Angle_init: 0  # [deg] 0
+  Pos_X_init: 5.1    # [m] 5.1
+  Pos_Y_init: 0.0    # [m] 0.0
+  Pos_Z_init: 2.60    # [m] 2.60
+
+
+SAR_DC_SETTINGS:
+  Logging_Rate: 10 # [Hz]
