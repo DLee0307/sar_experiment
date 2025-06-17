@@ -1,0 +1,4 @@
+source;share/sar_env_exp/local_setup.bash
+source;share/sar_env_exp/local_setup.dsv
+source;share/sar_env_exp/local_setup.sh
+source;share/sar_env_exp/local_setup.zsh

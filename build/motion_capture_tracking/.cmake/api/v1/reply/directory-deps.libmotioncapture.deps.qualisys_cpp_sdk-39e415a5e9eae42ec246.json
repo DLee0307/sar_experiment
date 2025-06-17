@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/libmotioncapture/deps/qualisys_cpp_sdk/libqualisys_cpp_sdk.a"
+			],
+			"targetId" : "qualisys_cpp_sdk::@5a99e0bc11ee08158fb6",
+			"targetIndex" : 41,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/libmotioncapture/deps/qualisys_cpp_sdk",
+		"source" : "deps/libmotioncapture/deps/qualisys_cpp_sdk"
+	}
+}

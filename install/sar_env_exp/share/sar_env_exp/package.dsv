@@ -1,0 +1,8 @@
+source;share/sar_env_exp/hook/cmake_prefix_path.ps1
+source;share/sar_env_exp/hook/cmake_prefix_path.dsv
+source;share/sar_env_exp/hook/cmake_prefix_path.sh
+source;share/sar_env_exp/local_setup.bash
+source;share/sar_env_exp/local_setup.dsv
+source;share/sar_env_exp/local_setup.ps1
+source;share/sar_env_exp/local_setup.sh
+source;share/sar_env_exp/local_setup.zsh

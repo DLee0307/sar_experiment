@@ -35,7 +35,7 @@
           fps: 1
           cycle_bg: false
           cf_cameras:
-            cf231:
+            cf1:
               calibration:
                 tvec:
                 - 0
@@ -57,9 +57,9 @@
                 - 1.48218982
       controller: mellinger
     robots:
-      cf231:
+      cf1:
         enabled: true
-        uri: radio://0/80/2M/E7E7E7E701
+        uri: radio://0/80/2M/E7E7E7E7E7
         initial_position:
         - 0.0
         - 0.0
@@ -83,6 +83,20 @@
         battery:
           voltage_warning: 3.8
           voltage_critical: 3.7
+        firmware_logging:
+          enabled: true
+          custom_topics:
+            States_B_O:
+              frequency: 100
+              vars:
+              - Z_States.r_BO
+              - Z_States.r_BOz
+              - Z_States.V_BOxy
+              - Z_States.V_BOz
+              - Z_States.Quat_BO
+              - Z_States.Omega_BOxy
+              - Z_States.Acc_BO_Mag
+              - Z_States.dOmegaBOy
       cf21_mocap_deck:
         motion_capture:
           enabled: false
@@ -94,21 +108,16 @@
           voltage_critical: 3.7
     all:
       firmware_logging:
-        enabled: true
+        enabled: false
         default_topics:
           pose:
-            frequency: 10
-          status:
-            frequency: 1
+            frequency: 100
       firmware_params:
         commander:
           enHighLevel: 1
         stabilizer:
           estimator: 2
           controller: 5
-        locSrv:
-          extPosStdDev: 1e-3
-          extQuatStdDev: 0.05
       broadcasts:
         num_repeats: 15
         delay_between_repeats_ms: 1

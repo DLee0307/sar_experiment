@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8db8baf7f09395767b88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "crazyflie_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_crazyflie_examples_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_crazyflie_examples_egg-a27b73d81fd6c6471390.json",
+					"name" : "ament_cmake_python_build_crazyflie_examples_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_crazyflie_examples_scripts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_crazyflie_examples_scripts-6625442cfac54f264b19.json",
+					"name" : "ament_cmake_python_build_crazyflie_examples_scripts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_crazyflie_examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_crazyflie_examples-b50d06171d1e23bf1bd3.json",
+					"name" : "ament_cmake_python_copy_crazyflie_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_crazyflie_examples_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_crazyflie_examples_setup-c99d3e26f4a455e404ef.json",
+					"name" : "ament_cmake_python_copy_crazyflie_examples_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crazyflie_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crazyflie_examples_uninstall-f4bfc7b0f827984162fc.json",
+					"name" : "crazyflie_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-85f9d4e890f7be41be5a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples",
+		"source" : "/home/dlee/ros2_ws/src/sar_experiment/crazyswarm2/crazyflie_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

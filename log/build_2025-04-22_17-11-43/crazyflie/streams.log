@@ -1,0 +1,93 @@
+[0.273s] Invoking command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces/lib:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlee/ros2_ws/src/sar_experiment/build/crazyflie -- -j24 -l24
+[0.315s] [35m[1mConsolidate compiler generated dependencies of target teleop[0m
+[0.316s] [35m[1mConsolidate compiler generated dependencies of target crazyflieLinkCpp[0m
+[0.334s] [ 22%] Built target crazyflieLinkCpp
+[0.336s] [ 27%] Built target teleop
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_cpp[0m
+[0.359s] [ 35%] Built target crazyflie_cpp
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target listParams[0m
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target battery[0m
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target comCheck[0m
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target version[0m
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target console[0m
+[0.374s] [35m[1mConsolidate compiler generated dependencies of target scan[0m
+[0.374s] [35m[1mConsolidate compiler generated dependencies of target listLogVariables[0m
+[0.374s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target reboot[0m
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target listMemories[0m
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target log[0m
+[0.376s] [35m[1mConsolidate compiler generated dependencies of target downloadUSDLogfile[0m
+[0.377s] [35m[1mConsolidate compiler generated dependencies of target setParam[0m
+[0.397s] [ 42%] Built target battery
+[0.397s] [ 47%] Built target listParams
+[0.397s] [ 50%] Built target console
+[0.397s] [ 55%] Built target version
+[0.397s] [ 60%] Built target listMemories
+[0.398s] [ 70%] Built target reboot
+[0.398s] [ 70%] Built target scan
+[0.398s] [ 75%] Built target downloadUSDLogfile
+[0.399s] [ 80%] Built target listLogVariables
+[0.399s] [ 87%] Built target comCheck
+[0.399s] [ 90%] Built target crazyflie_server
+[0.402s] [ 95%] Built target log
+[0.403s] [100%] Built target setParam
+[0.417s] Invoked command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces/lib:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlee/ros2_ws/src/sar_experiment/build/crazyflie -- -j24 -l24
+[0.418s] Invoking command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces/lib:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlee/ros2_ws/src/sar_experiment/build/crazyflie
+[0.427s] -- Install configuration: ""
+[0.427s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/comCheck
+[0.427s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/scan
+[0.427s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/listParams
+[0.428s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/listLogVariables
+[0.428s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/listMemories
+[0.428s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/reboot
+[0.428s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/battery
+[0.428s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/version
+[0.428s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/console
+[0.429s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/log
+[0.429s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/setParam
+[0.429s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/downloadUSDLogfile
+[0.429s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/teleop
+[0.429s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/crazyflie_server
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/chooser.py
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/vel_mux.py
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/cfmult.py
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/simple_mapper_multiranger.py
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/aideck_streamer.py
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/gui.py
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/lib/crazyflie/flash.py
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//launch
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//launch/__pycache__
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//launch/__pycache__/launch.cpython-310.pyc
+[0.430s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//launch/launch.py
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//config
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//config/server.yaml
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//config/config.rviz
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//config/teleop.yaml
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//config/aideck_streamer.yaml
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//config/crazyflies1.yaml
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//config/motion_capture (vicon).yaml
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//urdf
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//urdf/cf2_assembly.stl
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//urdf/crazyflie_description.urdf
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie//urdf/cf2_assembly_with_props.dae
+[0.431s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/environment/path.sh
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/environment/path.dsv
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/local_setup.bash
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/local_setup.sh
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/local_setup.zsh
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/local_setup.dsv
+[0.432s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/package.dsv
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[0.432s] -- Up-to-date: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie/share/crazyflie/package.xml
+[0.434s] Invoked command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces/lib:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlee/ros2_ws/src/sar_experiment/build/crazyflie

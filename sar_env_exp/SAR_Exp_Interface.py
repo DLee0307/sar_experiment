@@ -25,24 +25,30 @@ class SAR_Exp_Interface(SAR_Base_Interface):
 
         print("[STARTING] SAR_Exp is starting...")
         SAR_Base_Interface.__init__(self,Experiment_Setup=True)
-
+        print("11111")
+        
         self.EXP_PATH = sys.path.append('/home/dlee/ros2_ws/src/sar_experiment/sar_env_exp')
         self.EXP_PATH = '/home/dlee/ros2_ws/src/sar_experiment'
         #self.EXP_PATH = os.path.dirname(get_package_share_directory('sar_env_exp'))
+        
         self.loadBaseParams()
         self.loadExpParams()
+        print("22222")
         
         self.cf_swarm = Crazyswarm()
         self.cf = self.cf_swarm.allcfs.crazyflies[0]
         self.timeHelper = self.cf_swarm.timeHelper
+        print("33333")
         
         ## SAR PARAMETERS
         self.Done = False
         self.setParams()
         self.Log_Dir =  f"{self.EXP_PATH}/sar_logging_exp/local_logs"
-        
+        print("44444")
+
         #print("self.SAR_Type",self.SAR_Type)
         #print("self.Policy_Type",self.Policy_Type)
+        print("[COMPLETING] SAR_Exp is DONE...")
 
     def setParams(self):
         ## SetParam function is in crazyflie.py

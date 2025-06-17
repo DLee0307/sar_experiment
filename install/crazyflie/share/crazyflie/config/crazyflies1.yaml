@@ -1,0 +1,196 @@
+# named list of all robots
+robots:
+  cf1:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E7E7
+    #uri: radio://0/80/2M/E7E7E7E701
+    initial_position: [0.0, 0.0, 0.0]
+    type: cf21  # see robot_types
+    # firmware_params:
+    #   kalman:
+    #     pNAcc_xy: 1.0 # default 0.5
+    # firmware_logging:
+    #   enabled: true
+    #   custom_topics:
+    #     topic_name3: 
+    #       frequency: 1
+    #       vars: ["acc.x", "acc.y"]
+  cf5:
+    enabled: false
+    uri: radio://0/80/2M/E7E7E7E705
+    initial_position: [0.0, -0.5, 0.0]
+    type: cf21  # see robot_types
+    # firmware_params:
+    #   kalman:
+    #     pNAcc_xy: 1.0 # default 0.5
+    #firmware_logging:
+    #  custom_topics:
+    #    topic_name3: 
+    #      frequency: 1
+    #      vars: ["acc.x", "acc.y", "acc.z"]
+# Definition of the various robot types
+robot_types:
+  cf21:
+    motion_capture:
+      enabled: true
+      # only if enabled; see motion_capture.yaml
+      marker: default_single_marker
+      dynamics: default
+    big_quad: false
+    battery:
+      voltage_warning: 3.8  # V
+      voltage_critical: 3.7 # V
+    # firmware_params:
+    #   kalman:
+    #     pNAcc_xy: 1.0 # default 0.5
+    firmware_logging:
+       enabled: true
+       #default_topics:
+       #pose:
+         #frequency: 1 # Hz
+         
+#       custom_topics:
+#       
+#        CMD_RX: 
+#          frequency: 100
+#          vars: [
+#          "Misc.CMD_ID"
+#          ]
+#          
+#        States_B_O: 
+#          frequency: 20
+#          vars: [
+#          "Z_States.r_BO", "Z_States.r_BOz", 
+#          "Z_States.V_BOxy", "Z_States.V_BOz",
+#          "Z_States.Quat_BO",
+#          "Z_States.Omega_BOxy",  "Z_States.Acc_BO_Mag",
+#          "Z_States.dOmegaBOy",
+#          ]
+#
+#        States_B_P: 
+#          frequency: 50
+#          vars: [
+#          "Z_States.r_PBxy", "Z_States.r_PBz", 
+#          "Z_States.VelRel_BP",
+#          "Z_States.D_perp", "Z_States.Tau",
+#          "Z_States.Theta_x",
+#          "Z_States.Pol_Actions",
+#          "Z_Trg.Trg_Flag",
+#          ]
+#          
+#        TrgState: 
+#          frequency: 100
+#          vars: [
+#          "Z_Trg.D_perp", "Z_Trg.Tau", 
+#          "Z_Trg.Theta_x", "Z_Trg.V_BOxy", "Z_Trg.V_BOz",
+#          "Z_Trg.Quat_BO", "Z_Trg.Omega_BOy", 
+#          "Z_Trg.Pol_Actions",
+#          ]
+#          
+#        ImpactOBState: 
+#          frequency: 100
+#          vars: [
+#          "Z_Impact.ImpaOB", "Z_Impact.VelRel_BP", 
+#          "Z_Impact.Quat_BO", "Z_Impact.OmegaBOy",
+#          "Z_Impact.dOmega_BOy",
+#          ]
+#          
+#        CTRL_Output: 
+#          frequency: 100
+#          vars: [
+#          "Z_States.FMz", "Z_States.Mxy",
+#          "Z_States.f_12",  "Z_States.f_34",
+#          "Z_States.M_CMD12", "Z_States.M_CMD34",
+#          ]
+#          
+#        SetPoints: 
+#          frequency: 100
+#          vars: [
+#          "Z_SetPoints.x_xy", "Z_SetPoints.x_z", 
+#          "Z_SetPoints.v_xy", "Z_SetPoints.v_z",
+#          "Z_SetPoints.a_xy", "Z_SetPoints.a_z",
+#          ]
+#          
+#        Flags: 
+#          frequency: 100
+#          vars: [
+#          "Misc.Pos_Ctrl", "Misc.Vel_Ctrl",
+#          "Misc.Motorstop", "Misc.Armed_Flag",
+#          "Misc.Tumbled_Flag", "Misc.Tumble_Detect",
+#          "Misc.Policy_Armed",  "Misc.AngAccel_Flag"
+#          ]
+#          
+#        Misc: 
+#          frequency: 100
+#          vars: [
+#          "Misc.r_PO_x", "Misc.r_PO_y", "Misc.r_PO_z",
+#          "Misc.Plane_Angle", 
+#          "Misc.CustomThrust", "Misc.CustomM_CMD",
+#          ]
+#          
+#        Practice: 
+#          frequency: 100
+#          vars: [
+#          "Misc.r_PO_x"
+          #"P2.P_kp_xy",
+          #"P1.Mass"
+          #"Ixx", "Iyy", "Izz",
+          #"P_kp_xy", "P_kd_xy", "P_ki_xy", "i_range_xy",
+#          ]
+          
+  cf21_mocap_deck:
+    motion_capture:
+      enabled: false
+      # only if enabled; see motion_capture.yaml
+      marker: mocap_deck
+      dynamics: default
+    big_quad: false
+    battery:
+      voltage_warning: 3.8  # V
+      voltage_critical: 3.7 # V
+
+    # firmware_params:
+    #   kalman:
+    #     pNAcc_xy: 1.0 # default 0.5
+
+# global settings for all robots
+all:
+  # firmware logging for all drones (use robot_types/type_name to set per type, or
+  # robots/drone_name to set per drone)
+  firmware_logging:
+    enabled: false
+    default_topics:
+     # remove to disable default topic
+    #  pose:
+    #    frequency: 10 # Hz
+    #  status:
+    #    frequency: 1 # Hz
+    #custom_topics:
+    #  topic_name1:
+    #    frequency: 10 # Hz
+    #    vars: ["stateEstimateZ.x", "stateEstimateZ.y", "stateEstimateZ.z", "pm.vbat"]
+    #  topic_name2:
+    #    frequency: 1 # Hz
+    #    vars: ["stabilizer.roll", "stabilizer.pitch", "stabilizer.yaw"]
+  # firmware parameters for all drones (use robot_types/type_name to set per type, or
+  # robots/drone_name to set per drone)
+  firmware_params:
+    commander:
+      enHighLevel: 1
+    stabilizer:
+      estimator: 2 # 1: complementary, 2: kalman
+      controller: 5 # 1: PID, 2: mellinger 5: OOT controller default 2
+    # ring:
+    #   effect: 16 # 6: double spinner, 7: solid color, 16: packetRate
+    #   solidBlue: 255 # if set to solid color
+    #   solidGreen: 0 # if set to solid color
+    #   solidRed: 0 # if set to solid color
+    #   headlightEnable: 0
+    #locSrv:
+    #  extPosStdDev: 1e-3
+    #  extQuatStdDev: 0.5e-1
+    # kalman:
+    #   resetEstimation: 1
+  broadcasts:
+    num_repeats: 15 # number of times broadcast commands are repeated
+    delay_between_repeats_ms: 1 # delay in milliseconds between individual repeats

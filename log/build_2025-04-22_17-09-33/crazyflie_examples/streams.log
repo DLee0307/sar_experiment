@@ -1,0 +1,135 @@
+[0.013s] Invoking command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py/lib/python3.10/site-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dlee/ros2_ws/src/sar_experiment/crazyswarm2/crazyflie_examples -DCMAKE_INSTALL_PREFIX=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.167s] -- The CXX compiler identification is GNU 11.4.0
+[0.177s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.285s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.384s] -- Detecting CXX compiler ABI info - done
+[0.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.395s] -- Detecting CXX compile features
+[0.396s] -- Detecting CXX compile features - done
+[0.401s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.593s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.824s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.915s] -- Configuring done
+[1.923s] -- Generating done
+[1.928s] -- Build files have been written to: /home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples
+[1.934s] Invoked command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py/lib/python3.10/site-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dlee/ros2_ws/src/sar_experiment/crazyswarm2/crazyflie_examples -DCMAKE_INSTALL_PREFIX=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples
+[1.937s] Invoking command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py/lib/python3.10/site-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples -- -j24 -l24
+[2.010s] Built target ament_cmake_python_copy_crazyflie_examples_setup
+[2.010s] Built target ament_cmake_python_copy_crazyflie_examples
+[2.312s] running egg_info
+[2.313s] creating crazyflie_examples.egg-info
+[2.313s] writing crazyflie_examples.egg-info/PKG-INFO
+[2.313s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[2.313s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[2.314s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[2.314s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[2.320s] running install_scripts
+[2.344s] running egg_info
+[2.344s] writing crazyflie_examples.egg-info/PKG-INFO
+[2.345s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[2.345s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[2.345s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[2.348s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[2.349s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[2.375s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[2.375s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[2.377s] Installing arming script to scripts
+[2.377s] Installing cmd_full_state script to scripts
+[2.377s] Installing figure8 script to scripts
+[2.377s] Installing group_mask script to scripts
+[2.377s] Installing hello_world script to scripts
+[2.377s] Installing infinite_flight script to scripts
+[2.378s] Installing multi_trajectory script to scripts
+[2.378s] Installing nice_hover script to scripts
+[2.378s] Installing set_param script to scripts
+[2.378s] Installing swap script to scripts
+[2.384s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[2.416s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[2.431s] Invoked command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py/lib/python3.10/site-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples -- -j24 -l24
+[2.433s] Invoking command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py/lib/python3.10/site-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples
+[2.442s] -- Install configuration: ""
+[2.443s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[2.443s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[2.443s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info
+[2.443s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/dependency_links.txt
+[2.443s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/PKG-INFO
+[2.443s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/entry_points.txt
+[2.444s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/SOURCES.txt
+[2.444s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/top_level.txt
+[2.444s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples/
+[2.444s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//arming
+[2.444s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[2.444s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[2.444s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[2.445s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[2.445s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//group_mask
+[2.445s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[2.445s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//infinite_flight
+[2.445s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//swap
+[2.445s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[2.445s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples
+[2.446s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/swap.py
+[2.446s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data
+[2.446s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/figure8.csv
+[2.446s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory
+[2.446s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[2.446s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[2.446s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/arming.py
+[2.447s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py
+[2.447s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py
+[2.447s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py
+[2.447s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/infinite_flight.py
+[2.447s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/group_mask.py
+[2.447s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py
+[2.447s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py
+[2.448s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py
+[2.448s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py
+[2.487s] Listing '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples'...
+[2.487s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py'...
+[2.487s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/arming.py'...
+[2.487s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py'...
+[2.487s] Listing '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data'...
+[2.488s] Listing '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory'...
+[2.488s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py'...
+[2.488s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/group_mask.py'...
+[2.488s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py'...
+[2.488s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/infinite_flight.py'...
+[2.488s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py'...
+[2.488s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py'...
+[2.488s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py'...
+[2.488s] Compiling '/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/swap.py'...
+[2.492s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//config
+[2.492s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[2.492s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[2.492s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//data
+[2.492s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[2.492s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[2.493s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[2.494s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[2.495s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//launch
+[2.495s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_simple_mapper_launch.py
+[2.495s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[2.495s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[2.495s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//launch/launch.py
+[2.495s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[2.495s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[2.496s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[2.496s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[2.496s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[2.496s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[2.496s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[2.497s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[2.497s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[2.497s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[2.497s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[2.497s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[2.498s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[2.498s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[2.498s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[2.498s] -- Installing: /home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[2.502s] Invoked command in '/home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/sar_projects:/home/dlee/ros2_ws/install/sar_gazebo:/home/dlee/ros2_ws/install/sar_control:/home/dlee/ros2_ws/install/sar_msgs:/home/dlee/ros2_ws/install/sar_logging_exp:/home/dlee/ros2_ws/install/sar_logging:/home/dlee/ros2_ws/install/sar_launch:/home/dlee/ros2_ws/install/sar_general:/home/dlee/ros2_ws/install/sar_env_exp:/home/dlee/ros2_ws/install/sar_env:/home/dlee/ros2_ws/install/sar_data_converter:/home/dlee/ros2_ws/install/sar_config:/home/dlee/ros2_ws/install/my_ignition_plugin:/home/dlee/ros2_ws/install/motion_capture_tracking:/home/dlee/ros2_ws/install/crazyflie:/home/dlee/ros2_ws/install/motion_capture_tracking_interfaces:/home/dlee/ros2_ws/install/crazyflie_sim:/home/dlee/ros2_ws/install/crazyflie_examples:/home/dlee/ros2_ws/install/crazyflie_interfaces:/home/dlee/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_py/lib/python3.10/site-packages:/home/dlee/ros2_ws/src/sar_experiment/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlee/ros2_ws/src/sar_experiment/build/crazyflie_examples

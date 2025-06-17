@@ -56,7 +56,8 @@ def cmd_send_exp(env):
 
 def main(args=None):
     rclpy.init(args=args)
-    
+    print("Exp_Control_Playground main function is running")
+
     ## INIT GAZEBO ENVIRONMENT
     env = SAR_Exp_Interface()
     #env.sendCmd("Plane_Pose",cmd_vals=[env.Plane_Pos_x_init,env.Plane_Pos_y_init,env.Plane_Pos_z_init],cmd_flag=env.Plane_Angle_deg_init)

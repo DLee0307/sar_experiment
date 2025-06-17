@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from crazyflie_interfaces/srv/CTRLCmdSrv.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module crazyflie_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct CTRLCmdSrv_Request {
+      uint16 cmd_type;
+
+      geometry_msgs::msg::Vector3 cmd_vals;
+
+      uint16 cmd_flag;
+
+      boolean cmd_rx;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct CTRLCmdSrv_Response {
+      boolean srv_success;
+    };
+  };
+};
